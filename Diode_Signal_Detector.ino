@@ -1,5 +1,5 @@
 // Diode Signal Detector on ESP32
-const int signalPin = 5; // Pin connected after the diode
+const int signalPin = 15; // Pin connected after the diode
 void setup() {
 Serial.begin(115200);
 pinMode(signalPin, INPUT);
